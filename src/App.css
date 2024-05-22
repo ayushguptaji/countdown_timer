@@ -9,6 +9,9 @@
 
 h1 {
   font-size: 3.5em;
+  text-align: center;
+  padding: 20px;
+  margin: 0px
 }
 
 #heading {
@@ -33,4 +36,10 @@ h1 {
 button {
   min-width: 12vw;
   font-size: large;
+}
+
+@media only screen and (max-width: 720px) {
+  #card-collection {
+    flex-direction: column;
+  }
 }
