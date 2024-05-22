@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,6 +18,13 @@ h1 {
   color: purple;
 }
 
+#msg {
+  color: purple;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+}
+
 #card-collection {
   display: flex;
   align-items: center;
@@ -27,6 +34,7 @@ h1 {
 #dateTime, button {
   background-color: transparent;
   color: white;
+  border: solid 3px;
   border-color: white;
   padding: 10px;
   margin: 10px;
@@ -36,6 +44,12 @@ h1 {
 button {
   min-width: 12vw;
   font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: purple;
+  border-color: black;
 }
 
 @media only screen and (max-width: 720px) {
